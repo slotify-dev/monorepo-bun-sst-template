@@ -1,7 +1,7 @@
 {
-  "name": "@monorepo-template/core",
-  "type": "module",
+  "name": "@template/core",
   "version": "0.0.0",
+  "type": "module",
   "scripts": {
     "test": "sst shell vitest"
   },

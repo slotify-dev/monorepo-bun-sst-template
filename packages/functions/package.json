@@ -1,9 +1,9 @@
 {
-  "name": "@monorepo-template/functions",
+  "name": "@template/functions",
   "version": "0.0.0",
   "type": "module",
   "dependencies": {
-    "@monorepo-template/core": "*",
+    "@template/core": "workspace:*",
     "sst": "*"
   },
   "devDependencies": {
