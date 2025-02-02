@@ -22,8 +22,8 @@ A template to create a monorepo SST v3 project. [Learn more](https://sst.dev/doc
 4. Deploy!
 
    ```bash
-   npm install
-   npx sst deploy
+   bun install
+   bun run deploy
    ```
 
 5. Optionally, enable [_git push to deploy_](https://sst.dev/docs/console/#autodeploy).
@@ -47,7 +47,7 @@ This template uses [npm Workspaces](https://docs.npmjs.com/cli/v8/using-npm/work
    That you can use across other packages using.
 
    ```ts
-   import { Example } from "@aws-monorepo/core/example";
+   import { Example } from "@template/core/example";
 
    Example.hello();
    ```
